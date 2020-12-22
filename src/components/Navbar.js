@@ -14,6 +14,7 @@ const useStyles = makeStyles((theme) => ({
   button: {
     color: "#d3c9c0",
     letterSpacing: 2,
+    textTransform: "none",
   },
   buttonTitle: {
     color: "#d3c9c0",
@@ -45,22 +46,38 @@ export default function Navbar() {
   };
 
   return (
-    <nav className={`${classes.button} menu menu--inola`}>
-      <a className={`${classes.button} menu__item`} href="http://brendaty.com">
-        <span className="menu__item-name">Skills</span>
-      </a>
-      <a className={`${classes.button} menu__item`} href="#">
-        <span className="menu__item-name">Projects</span>
-      </a>
-      <a className={`${classes.button} menu__item`} href="#">
-        <span className="menu__item-name">Experience</span>
-      </a>
-      <a className={`${classes.button} menu__item`} href="#">
-        <span className="menu__item-name">About</span>
-      </a>
-      <a className={`${classes.button} menu__item`} href="#">
-        <span className="menu__item-name">Contact</span>
-      </a>
-    </nav>
+    <div className={`${classes.root} menu menu--inola`}>
+      <AppBar
+        position="fixed"
+        style={{ background: "transparent", boxShadow: "none" }}
+      >
+        <Toolbar>
+          <Typography className={classes.buttonTitle}>
+            <Button className={classes.buttonTitle}>Brenda Ty</Button>
+          </Typography>
+          <a
+            className={`${classes.button} menu__item`}
+            href="http://brendaty.com"
+          >
+            <span className="menu__item-name">Skills</span>
+          </a>
+          <a className={`${classes.button} menu__item`} href="#">
+            <span className="menu__item-name">Projects</span>
+          </a>
+          <a className={`${classes.button} menu__item`} href="#">
+            <span className="menu__item-name">Experience</span>
+          </a>
+          <a className={`${classes.button} menu__item`} href="#">
+            <span className="menu__item-name">About</span>
+          </a>
+          <a className={`${classes.button} menu__item`} href="#">
+            <span className="menu__item-name">Contact</span>
+          </a>
+        </Toolbar>
+      </AppBar>
+    </div>
+    // <nav className={`${classes.button} menu menu--inola`}>
+
+    // </nav>
   );
 }

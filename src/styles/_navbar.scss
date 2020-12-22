@@ -40,21 +40,17 @@ body {
 .menu--inola .menu__item {
   position: relative;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  // flex-direction: row;
+  // align-items: flex-end;
   margin: 1.25em 0;
   text-align: center;
   text-transform: uppercase;
   color: #d3c9c0;
 }
 
-.menu--inola .menu__item:last-child {
-  margin-bottom: 0;
-}
-
 .menu--inola .menu__item-name {
   font-family: "Libre Baskerville", serif;
-  font-size: 2.25em;
+  font-size: 1em;
   padding: 0 0.25em;
   color: #d3c9c0;
   text-decoration: none;
