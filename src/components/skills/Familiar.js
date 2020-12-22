@@ -95,6 +95,11 @@ export default function Familiar() {
           </i>
         </Grid>
         <Grid className={classes.iconAndText}>
+          <i className="devicon-nodejs-plain skills-details-icon">
+            <Typography className={classes.text}>Node.js</Typography>
+          </i>
+        </Grid>
+        <Grid className={classes.iconAndText}>
           <i className="devicon-typescript-plain skills-details-icon">
             <Typography className={classes.text}>TypeScript</Typography>
           </i>

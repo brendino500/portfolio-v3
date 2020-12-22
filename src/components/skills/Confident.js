@@ -115,13 +115,9 @@ export default function Confident() {
             </i>
           </Grid>
           <Grid className={classes.iconAndText}>
-            <i className="devicon-nodejs-plain skills-details-icon">
-              <Typography className={classes.text}>Node.js</Typography>
-            </i>
-          </Grid>
-          <Grid className={classes.iconAndText}>
             <div className="materialIconsSkills">
               <SiMaterialUi className="materialIconSkillsDetails  material-skills" />
+              <br />
               <Typography className={classes.text}>Material UI</Typography>
             </div>
           </Grid>
