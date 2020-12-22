@@ -15,7 +15,7 @@ const useStyles = makeStyles((theme) => ({
   title: {
     flexGrow: 1,
     fontFamily: "Neuton",
-    fontSize: "42px",
+    fontSize: "40px",
     letterSpacing: "10px",
     color: "#d3c9c0",
     textAlign: "center",
@@ -40,6 +40,7 @@ export default function Skills() {
         <br />
         SKILLS
       </Typography>
+
       <Fade bottom>
         <Confident />
         <Familiar />

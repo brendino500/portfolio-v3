@@ -2,8 +2,10 @@ import React, { useRef, useState } from "react";
 import { BrowserRouter, Route } from "react-router-dom";
 import Fade from "react-reveal/Fade";
 
+import Home from "./components/common/Home";
 import Skills from "./components/skills/Skills";
 import Stalk from "./components/common/Stalk";
+import Experience from "./components/experience/Experience";
 
 import { makeStyles } from "@material-ui/core/styles";
 import {
@@ -239,19 +241,19 @@ function App() {
         </div>
 
         <main>
-          {/* <div ref={sectionHomeRef} id="home-height">
+          <div ref={sectionHomeRef} id="home-height">
             <Route exact path="/" component={Home} />
-          </div> */}
+          </div>
           <div ref={sectionSkillsRef} id="skills-height">
             <Skills />
           </div>
           {/* <div ref={sectionProjectsRef} id="project-height">
             <Projects />
-          </div>
+          </div> */}
           <div ref={sectionExperienceRef} id="experience-height">
             <Experience />
           </div>
-          <div ref={sectionAboutRef} id="about-height">
+          {/* <div ref={sectionAboutRef} id="about-height">
             <About />
           </div> */}
           <div ref={sectionStalkRef} id="stalk-height">

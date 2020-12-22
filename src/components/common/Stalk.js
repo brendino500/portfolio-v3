@@ -11,6 +11,7 @@ import { Container, Typography, IconButton, Grid } from "@material-ui/core";
 const useStyles = makeStyles((theme) => ({
   container: {
     maxWidth: 1000,
+    height: "100vh",
   },
   title: {
     flexGrow: 1,
@@ -81,7 +82,7 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   footer: {
-    marginTop: "20%",
+    marginTop: "7%",
     fontFamily: "Neuton",
     color: "#d3c9c0",
     fontSize: 15,
