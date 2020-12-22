@@ -192,37 +192,36 @@ function App() {
                 >
                   Skills
                 </Button> */}
-                <a
+                <Button
                   className={`${classes.button} menu__item`}
-                  onClick={() => scrollTo(sectionProjectsRef)}
-                  // href="http://brendaty.com"
+                  onClick={() => scrollTo(sectionSkillsRef)}
                 >
                   <span className="menu__item-name">Skills</span>
-                </a>
+                </Button>
                 <Button
-                  className={classes.button}
+                  className={`${classes.button} menu__item`}
                   onClick={() => scrollTo(sectionProjectsRef)}
                 >
-                  Projects
+                  <span className="menu__item-name">Projects</span>
                 </Button>
 
                 <Button
-                  className={classes.button}
+                  className={`${classes.button} menu__item`}
                   onClick={() => scrollTo(sectionExperienceRef)}
                 >
-                  Experience
+                  <span className="menu__item-name">Experience</span>
                 </Button>
                 <Button
-                  className={classes.button}
+                  className={`${classes.button} menu__item`}
                   onClick={() => scrollTo(sectionAboutRef)}
                 >
-                  About
+                  <span className="menu__item-name">About</span>
                 </Button>
                 <Button
-                  className={classes.button}
+                  className={`${classes.button} menu__item`}
                   onClick={() => scrollTo(sectionStalkRef)}
                 >
-                  Contact
+                  <span className="menu__item-name">Contact</span>
                 </Button>
               </div>
 
