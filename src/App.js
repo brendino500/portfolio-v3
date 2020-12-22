@@ -1,7 +1,9 @@
 import React, { useRef, useState } from "react";
 import { BrowserRouter, Route } from "react-router-dom";
+import Fade from "react-reveal/Fade";
 
 import Skills from "./components/skills/Skills";
+import Stalk from "./components/common/Stalk";
 
 import { makeStyles } from "@material-ui/core/styles";
 import {
@@ -186,12 +188,6 @@ function App() {
               </Typography>
 
               <div className={classes.sectionDesktop}>
-                {/* <Button
-                  className={classes.button}
-                  onClick={() => scrollTo(sectionSkillsRef)}
-                >
-                  Skills
-                </Button> */}
                 <Button
                   className={`${classes.button} menu__item`}
                   onClick={() => scrollTo(sectionSkillsRef)}
@@ -257,10 +253,10 @@ function App() {
           </div>
           <div ref={sectionAboutRef} id="about-height">
             <About />
-          </div>
+          </div> */}
           <div ref={sectionStalkRef} id="stalk-height">
             <Stalk />
-          </div> */}
+          </div>
         </main>
       </BrowserRouter>
     </div>

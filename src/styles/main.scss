@@ -3,5 +3,10 @@ body {
   background-color: #323e47;
 }
 
+#primary-menu-mobile
+  > div.MuiPaper-root.MuiMenu-paper.MuiPopover-paper.MuiPaper-elevation8.MuiPaper-rounded {
+  background-color: #44535f;
+}
+
 @import "./navbar";
 @import "./icons";
