@@ -165,7 +165,7 @@ function App() {
   );
 
   return (
-    <>
+    <div className={`${classes.root} menu menu--inola`}>
       <BrowserRouter>
         <div className={classes.root}>
           <AppBar
@@ -186,12 +186,19 @@ function App() {
               </Typography>
 
               <div className={classes.sectionDesktop}>
-                <Button
+                {/* <Button
                   className={classes.button}
                   onClick={() => scrollTo(sectionSkillsRef)}
                 >
                   Skills
-                </Button>
+                </Button> */}
+                <a
+                  className={`${classes.button} menu__item`}
+                  onClick={() => scrollTo(sectionProjectsRef)}
+                  // href="http://brendaty.com"
+                >
+                  <span className="menu__item-name">Skills</span>
+                </a>
                 <Button
                   className={classes.button}
                   onClick={() => scrollTo(sectionProjectsRef)}
@@ -257,7 +264,7 @@ function App() {
           </div> */}
         </main>
       </BrowserRouter>
-    </>
+    </div>
   );
 }
 

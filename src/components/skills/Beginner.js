@@ -104,11 +104,9 @@ export default function Beginner() {
             <Typography className={classes.text}>PostgreSQL</Typography>
           </i>
         </Grid>
-        <Grid className={classes.iconAndText}>
-          <div className="materialIconsSkills">
-            <SiJest className="materialIconSkillsDetails" />
-            <Typography className={classes.text}>Jest</Typography>
-          </div>
+        <Grid className={`${classes.iconAndText} material-ui-icons`}>
+          <SiJest className="devicon-react-original skills-details-icon" />
+          <Typography className={classes.text}>Jest</Typography>
         </Grid>
       </Grid>
     </ThemeProvider>

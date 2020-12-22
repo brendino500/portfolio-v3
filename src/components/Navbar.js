@@ -31,20 +31,6 @@ const useStyles = makeStyles((theme) => ({
 export default function Navbar() {
   const classes = useStyles();
 
-  // const sectionHomeRef = useRef(null);
-  // const sectionSkillsRef = useRef(null);
-  // const sectionProjectsRef = useRef(null);
-  // const sectionExperienceRef = useRef(null);
-  // const sectionAboutRef = useRef(null);
-  // const sectionStalkRef = useRef(null);
-
-  // const scrollTo = (ref) => {
-  //   window.scroll({
-  //     top: ref.current.offsetTop,
-  //     behavior: "smooth",
-  //   });
-  // };
-
   return (
     <div className={`${classes.root} menu menu--inola`}>
       <AppBar

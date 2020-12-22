@@ -114,12 +114,9 @@ export default function Confident() {
               <Typography className={classes.text}>React.js</Typography>
             </i>
           </Grid>
-          <Grid className={classes.iconAndText}>
-            <div className="materialIconsSkills">
-              <SiMaterialUi className="materialIconSkillsDetails  material-skills" />
-              <br />
-              <Typography className={classes.text}>Material UI</Typography>
-            </div>
+          <Grid className={`${classes.iconAndText} material-ui-icons`}>
+            <SiMaterialUi className="devicon-react-original skills-details-icon" />
+            <Typography className={classes.text}>Material UI</Typography>
           </Grid>
           <Grid className={classes.iconAndText}>
             <i className="devicon-git-plain skills-details-icon">
