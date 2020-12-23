@@ -3,7 +3,7 @@ import Theme from "../../Theme";
 
 import { makeStyles } from "@material-ui/core/styles";
 import { Typography, ThemeProvider, Grid } from "@material-ui/core";
-import { SiJest } from "react-icons/si";
+import { SiJest, SiRedux } from "react-icons/si";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -107,6 +107,10 @@ export default function Beginner() {
         <Grid className={`${classes.iconAndText} material-ui-icons`}>
           <SiJest className="devicon-react-original skills-details-icon" />
           <Typography className={classes.text}>Jest</Typography>
+        </Grid>
+        <Grid className={`${classes.iconAndText} material-ui-icons`}>
+          <SiRedux className="devicon-react-original skills-details-icon" />
+          <Typography className={classes.text}>Redux</Typography>
         </Grid>
       </Grid>
     </ThemeProvider>

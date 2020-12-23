@@ -4,6 +4,7 @@ import Fade from "react-reveal/Fade";
 
 import Home from "./components/common/Home";
 import Skills from "./components/skills/Skills";
+import About from "./components/common/About";
 import Stalk from "./components/common/Stalk";
 import Experience from "./components/experience/Experience";
 
@@ -253,9 +254,9 @@ function App() {
           <div ref={sectionExperienceRef} id="experience-height">
             <Experience />
           </div>
-          {/* <div ref={sectionAboutRef} id="about-height">
+          <div ref={sectionAboutRef} id="about-height">
             <About />
-          </div> */}
+          </div>
           <div ref={sectionStalkRef} id="stalk-height">
             <Stalk />
           </div>

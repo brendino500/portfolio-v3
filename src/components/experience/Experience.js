@@ -61,6 +61,7 @@ const rows = [
   ),
   createData("June 2018 - May 2020", "Head Roaster", "@Craft London"),
   createData("July 2016 - Feb 2020", "Freelance Photographer", "@Freelance"),
+  createData("2017 - 2019", "Piano Teacher", "@Freelance"),
   createData("2013 - 2016", "Barista Trainer", "@Department of Coffee, London"),
   createData("2010 - 2013", "MusB Music", "@University of Manchester"),
 ];

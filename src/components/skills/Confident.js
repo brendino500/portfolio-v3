@@ -3,7 +3,7 @@ import Theme from "../../Theme";
 
 import { makeStyles } from "@material-ui/core/styles";
 import { Typography, Container, ThemeProvider, Grid } from "@material-ui/core";
-import { SiMaterialUi } from "react-icons/si";
+import { SiMaterialUi, SiAdobelightroomclassic } from "react-icons/si";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -127,6 +127,10 @@ export default function Confident() {
             <i className="devicon-github-plain skills-details-icon">
               <Typography className={classes.text}>GitHub</Typography>
             </i>
+          </Grid>
+          <Grid className={`${classes.iconAndText} material-ui-icons`}>
+            <SiAdobelightroomclassic className="devicon-react-original skills-details-icon" />
+            <Typography className={classes.text}>Adobe Lightroom</Typography>
           </Grid>
         </Grid>
       </Container>
